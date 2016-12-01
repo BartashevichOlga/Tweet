@@ -20,6 +20,8 @@ gem 'omniauth-twitter', '~>1.2.1'
 gem 'twitter', '~> 5.16'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'bootstrap_form', '~> 2.3.0'
+gem 'pry', '~>0.10.4'
+gem 'pry-nav', '~> 0.2.4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
