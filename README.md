@@ -1,9 +1,9 @@
-# README
+# Create a post on Twitter
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-### Initial setup
+## Initial setup
 * clone this repo
 
     cp env.sample.yml env.yml
@@ -14,7 +14,7 @@ application up and running.
 
 * put your username and password from the mysql database
 
-### Test the App
+## Test the App
 * Change directory to TwittTwitts:
 
    $ cd TwittTwitts
