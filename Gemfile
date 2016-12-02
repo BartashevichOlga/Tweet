@@ -22,7 +22,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'bootstrap_form', '~> 2.3.0'
 gem 'pry', '~>0.10.4'
 gem 'pry-nav', '~> 0.2.4'
-
+gem 'bootstrap-filestyle-rails'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri

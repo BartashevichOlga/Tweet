@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>TwittTwitts</title>
-    <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all' %>
-    <%= javascript_include_tag 'application' %>
-  </head>
-
-  <body>
-  <%= render 'layouts/header' %>
-    <%= yield %>
-  </body>
+<head>
+  <title>TwittTwitts</title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+  <%= yield :after_css %>
+</head>
+<body>
+<%= render 'layouts/header' %>
+<%= yield %>
+<%= javascript_include_tag 'application' %>
+<%= yield :after_js %>
+</body>
 </html>
