@@ -1,7 +1,7 @@
 <div class="formtweet">
 <div class="row">
   <div class="col-md-8 col-md-offset-2">
-    <%= form_for @tweet, url: { action: :post_tweet }, :html => { :multipart => true } do |f| %>
+    <%= form_for @tweet, url: { action: :post_tweet } do |f| %>
         <div class="col-md-8">
           <%= f.text_area :tweet, size: '70x5', placeholder: 'Tweet text', class: 'input-large', maxlength: 140 %>
           <%= f.file_field :picture, type: 'file', class: 'filestyle'%>

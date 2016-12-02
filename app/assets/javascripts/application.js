@@ -15,3 +15,4 @@
 //= require bootstrap-sprockets
 //= require bootstrap-filestyle
 //= require_tree .
+$(":file").filestyle({icon: false, placeholder: 'Upload image', buttonText: 'Choose...'})

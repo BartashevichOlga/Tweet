@@ -23,6 +23,7 @@ gem 'bootstrap_form', '~> 2.3.0'
 gem 'pry', '~>0.10.4'
 gem 'pry-nav', '~> 0.2.4'
 gem 'bootstrap-filestyle-rails'
+gem 'carrierwave', '~> 0.10.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
