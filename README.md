@@ -3,14 +3,14 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-h2 initial setup
+### Initial setup
 clone this repo
 cp env.sample.yml env.yml
 put your credentials on env.yml
 cp config/database.yml.sample config/database.yml
 put your username and password from the mysql database
 
-h2 Test the App
+### Test the App
 Change directory to TwittTwitts:
 $ cd TwittTwitts
 Running bundle install
