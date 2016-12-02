@@ -1,0 +1,9 @@
+require 'test_helper'
+
+class Users::OmniauthCallbacksControllerTest < ActionDispatch::IntegrationTest
+  test "should get twitter" do
+    get users_omniauth_callbacks_twitter_url
+    assert_response :success
+  end
+
+end

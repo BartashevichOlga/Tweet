@@ -1,0 +1,76 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+section {
+    overflow: auto;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.center {
+    text-align: center;
+}
+
+.center h1 {
+    margin-bottom: 10px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+}
+
+h1 {
+    font-size: 3em;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.7em;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: normal;
+    color: #777;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+
+
+
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: left;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
